@@ -1,0 +1,196 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.add-subject-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.professions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.profession {
+  flex-basis: calc(33.33% - 20px);
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profession-details h2 {
+  margin-top: 0;
+}
+
+.gpa-frame {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.gpa-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.grade-form {
+  margin-top: 20px;
+}
+
+.grade-form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.grade-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.grade-list {
+  margin-top: 20px;
+}
+
+.grade-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grade-list li {
+  margin: 5px 0;
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+}
+
+.grade-list li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.App {
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dark-background {
+  background-color: #333;
+  color: #fff;
+}
+
+/*   */ /*   */ /*   */ /*   */ /*   */
+
+.two_components_flex {
+  display: flex;
+  justify-content: center;
+}
+.add-subject-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hide_show_all_grades,
+.dark-light-mode {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dark-light-mode button {
+  background-color: #333;
+}
+
+.hide_show_all_grades button {
+  background-color: #28a745;
+}
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */
+/* css for login container */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
